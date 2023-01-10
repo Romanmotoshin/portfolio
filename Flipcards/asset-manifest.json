@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/Flipcards/static/css/main.4035f5bf.css",
-    "main.js": "/portfolio/Flipcards/static/js/main.428d8343.js",
+    "main.js": "/portfolio/Flipcards/static/js/main.a3966bef.js",
     "index.html": "/portfolio/Flipcards/index.html",
     "main.4035f5bf.css.map": "/portfolio/Flipcards/static/css/main.4035f5bf.css.map",
-    "main.428d8343.js.map": "/portfolio/Flipcards/static/js/main.428d8343.js.map"
+    "main.a3966bef.js.map": "/portfolio/Flipcards/static/js/main.a3966bef.js.map"
   },
   "entrypoints": [
     "static/css/main.4035f5bf.css",
-    "static/js/main.428d8343.js"
+    "static/js/main.a3966bef.js"
   ]
 }
