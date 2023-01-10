@@ -8,7 +8,7 @@ $('.review__slider').slick({
     {
       breakpoint: 577,
       settings: {
-        arrows: false,
+        arrows: true,
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 1
