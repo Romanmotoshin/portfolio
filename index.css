@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.about {
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.projects {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.project {
+    width: 30vw;
+    margin-top: 20px;
+}
