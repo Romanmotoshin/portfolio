@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-reboot.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
@@ -18,62 +19,85 @@
 
     <div class="about">
         <p>Front-end разработчик, живу в г.Архангельск, мне 28 лет.
-            Обучался на онлайн-курсах, последнее время обучаюсь самостоятельно.
+            Обучался на курсах на платформе Udemy, последнее время обучаюсь самостоятельно.
             Мне нравится программирование, есть желание обучаться и изучать новые технологии.</p>
-        <p>Навыки: HTML, CSS, Git,  JavaScript, React</p>
-        <p>Контакты: <a href="https://github.com/Romanmotoshin">GitHub</a>, <a href="https://t.me/RomanMotoshin">Telegram</a></p>
-        <p>Email: <span class="line">roman.motoshin@yandex.ru</span></p>
+        <p><span>Навыки:</span> HTML, CSS, Bootstrap, Tailwind, Git,  JavaScript, React, Redux, Typescript</p>
+        <p><span>Контакты:</span> <a href="https://github.com/Romanmotoshin">GitHub</a>, <a href="https://t.me/RomanMotoshin">Telegram</a></p>
+        <p><span>Emal:</span> roman.motoshin@yandex.ru</p>
     </div>
     
     <h2>Мои проекты</h2>
     <div class="projects">
-        <div class="project">
-            <a href="Employees/"><img class="preview" src="img/Employees.png" alt="preview"></a>
-            <a class="link" href="Employees/">Employees</a>
-            <div class="descr">React приложение Учёт сотрудников в компании. Реализован поиск, добавление, удаление и фильтр сотдрудников в списке. Используются классовые и функциональные компоненты</div>
-            <a href="https://github.com/Romanmotoshin/EmployeesApp">Ссылка на репозиторий GitHub</a>
+        <div class="card">
+            <a href="Employees/"><img src="img/Employees.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <a href="Employees/" class="card-title">Employees</a>
+                <p class="card-text">React приложение Учёт сотрудников в компании. Реализован поиск, добавление, удаление и фильтр сотдрудников в списке. Используются классовые и функциональные компоненты</p>
+                <a href="https://github.com/Romanmotoshin/EmployeesApp" class="btn btn-primary">Ссылка на репозиторий GitHub</a>
+            </div>
         </div>
-        <div class="project">
-            <a href="Flipcards/"><img class="preview" src="img/FlipCard.png" alt="preview"></a>
-            <a class="link" href="Flipcards/">Flipcards</a>
-            <div class="descr">React приложение игра Переворот карточек. Анимация на CSS, ReactRouter v6.4, React hooks</div>
-            <a href="https://github.com/Romanmotoshin/FlipCardApp">Ссылка на репозиторий GitHub</a>
+
+        <div class="card" >
+            <a href="Flipcards/"><img src="img/FlipCard.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <a href="Flipcards/" class="card-title">Flip Cards</a>
+                <p class="card-text">React приложение игра Переворот карточек. Анимация на CSS, ReactRouter v6.4, React hooks</p>
+                <a href="https://github.com/Romanmotoshin/FlipCardApp" class="btn btn-primary">Ссылка на репозиторий GitHub</a>
+            </div>
         </div>
-        <div class="project">
-            <a href="Marvel/"><img class="preview" src="img/Marvel.png" alt="preview"></a>
-            <a class="link" href="Marvel/">Marvel</a>
-            <div class="descr">React приложение по вселенной Marvel. Реализованы GET запросы на бесплатное API <a href="https://developer.marvel.com/">developer.marvel.com</a>, отбражение случайного персонажа, дозагрузка персонажей (пагинация), роутинг. </div>
-            <a href="https://github.com/Romanmotoshin/MarvelApp">Ссылка на репозиторий GitHub</a>
+
+        <div class="card" >
+            <a href="Marvel/"><img src="img/Marvel.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <a href="Marvel/" class="card-title">Marvel App</a>
+                <p class="card-text">React приложение по вселенной Marvel. Реализованы GET запросы на бесплатное API <a href="https://developer.marvel.com/">developer.marvel.com</a>, отбражение случайного персонажа, дозагрузка персонажей (пагинация), роутинг. </p>
+                <a href="https://github.com/Romanmotoshin/MarvelApp" class="btn btn-primary">Ссылка на репозиторий GitHub</a>
+            </div>
         </div>
-        <div class="project">
-            <a href="Food/index.html"><img class="preview" src="img/Food.png" alt="preview"></a>
-            <a class="link" href="Food/index.html">Food</a>
-            <div class="descr">Сайт доставки питания. Реализованы табы, модальные окна, калькулятор, слайдер, таймер обратного отсчета</div>
-            <a href="https://github.com/Romanmotoshin/Food">Ссылка на репозиторий GitHub</a>
+
+        <div class="card" >
+            <a href="Food/"><img src="img/Food.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <a href="Food/" class="card-title">Food</a>
+                <p class="card-text">Сайт доставки питания. Реализованы табы, модальные окна, калькулятор, слайдер, таймер обратного отсчета</p>
+                <a href="https://github.com/Romanmotoshin/Food" class="btn btn-primary">Ссылка на репозиторий GitHub</a>
+            </div>
         </div>
-        <div class="project">
-            <a href="Windows/index.html"><img class="preview" src="img/Windows.png" alt="preview"></a>
-            <a class="link" href="Windows/index.html">Windows</a>
-            <div class="descr">Сайт по остеклению балконов. Реализованы табы, модальные окна, таймер обратного отсчета</div>
-            <a href="https://github.com/Romanmotoshin/Windows">Ссылка на репозиторий GitHub</a>
+
+        <div class="card" >
+            <a href="Windows/"><img src="img/Windows.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <a href="Windows/" class="card-title">Windows</a>
+                <p class="card-text">Сайт по остеклению балконов. Реализованы табы, модальные окна, таймер обратного отсчета</p>
+                <a href="https://github.com/Romanmotoshin/Windows" class="btn btn-primary">Ссылка на репозиторий GitHub</a>
+            </div>
         </div>
-        <div class="project">
-            <a href="Pulse/index.html"><img class="preview" src="img/Pulse.png" alt="preview"></a>
-            <a class="link" href="Pulse/index.html">Pulse</a>
-            <div class="descr">Верстка сайта по методологии БЭМ. html, css, gulp, препроцессор scss. Реализованы модальные окна, табы, slick-slider</div>
-            <a href="https://github.com/Romanmotoshin/Pulse">Ссылка на репозиторий GitHub</a>
+
+        <div class="card" >
+            <a href="Pulse/"><img src="img/Pulse.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <a href="Pulse/" class="card-title">Pulse</a>
+                <p class="card-text">Верстка сайта по методологии БЭМ. html, css, gulp, препроцессор scss. Реализованы модальные окна, табы, slick-slider</p>
+                <a href="https://github.com/Romanmotoshin/Pulse" class="btn btn-primary">Ссылка на репозиторий GitHub</a>
+            </div>
         </div>
-        <div class="project">
-            <a href="Uber/index.html"><img class="preview" src="img/Uber.png" alt="preview"></a>
-            <a class="link" href="Uber/index.html">Uber</a>
-            <div class="descr">Вёрстка аддаптивного сайта. HTML + CSS </div>
-            <a href="https://github.com/Romanmotoshin/Uber">Ссылка на репозиторий GitHub</a>
+
+        <div class="card" >
+            <a href="Uber/"><img src="img/Uber.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <a href="Uber/" class="card-title">Uber</a>
+                <p class="card-text">Вёрстка аддаптивного сайта. HTML + CSS</p>
+                <a href="https://github.com/Romanmotoshin/Uber" class="btn btn-primary">Ссылка на репозиторий GitHub</a>
+            </div>
         </div>
-        <div class="project">
-            <a href="Globalopt/index.html"><img class="preview" src="img/GlobalOpt.png" alt="preview"></a>
-            <a class="link" href="Globalopt/index.html">GlobalOpt</a>
-            <div class="descr">Верстка сайта по методологии БЭМ. html, css, gulp, препроцессор scss</div>
-            <a href="https://github.com/Romanmotoshin/GlobalOpt">Ссылка на репозиторий GitHub</a>
+
+        <div class="card" >
+            <a href="Globalopt/"><img src="img/GlobalOpt.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <a href="Globalopt/" class="card-title">Global Opt</a>
+                <p class="card-text">Верстка сайта по методологии БЭМ. html, css, gulp, препроцессор scss</p>
+                <a href="https://github.com/Romanmotoshin/GlobalOpt" class="btn btn-primary">Ссылка на репозиторий GitHub</a>
+            </div>
         </div>
     </div>
 </body>

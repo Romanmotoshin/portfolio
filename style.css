@@ -1,12 +1,11 @@
 * {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: rgba(188, 231, 201, 0.818);
 }
 
 body {
-    background-color: rgb(55, 125, 113);
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(226, 223, 220);
 }
 
 h1 {
@@ -22,6 +21,10 @@ h2 {
     margin: 0 auto;
     width: 30%;
     text-align: center;
+}
+
+.about span {
+    font-weight: bold;
 }
 
 p {
@@ -51,19 +54,16 @@ a:hover {
     padding: 0 40px;
 }
 
-.project {
-    text-align: center;
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.project:hover {
-    background-color: rgba(27, 98, 89, 0.407);
+.card-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a58ca;
+    text-decoration: underline;
 }
 
-.link {
-    display: block;
-}
-
-.preview {
-    width: 400px;
-    height: 200px;
-}
